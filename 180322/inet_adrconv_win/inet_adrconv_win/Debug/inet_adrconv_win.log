@@ -1,0 +1,7 @@
+﻿  inet_adrconv_win.cpp
+c:\users\snowmo\documents\github\tcp-ip_programming\180322\inet_adrconv_win\inet_adrconv_win\inet_adrconv_win.cpp(21): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note: 'inet_addr' 선언을 참조하십시오.
+c:\users\snowmo\documents\github\tcp-ip_programming\180322\inet_adrconv_win\inet_adrconv_win\inet_adrconv_win.cpp(36): error C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: 'inet_ntoa' 선언을 참조하십시오.
+c:\users\snowmo\documents\github\tcp-ip_programming\180322\inet_adrconv_win\inet_adrconv_win\inet_adrconv_win.cpp(37): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
